@@ -1,0 +1,56 @@
+Operations:
+
+    -x as x, x=5 => -x = -5
+    + as addition, x=5, y=5, x+y=10
+    - as subration, x=5, y=5, x-y=0
+    * as multiplication, x=5, y=5, x*y=25. x*(-1) should be same as -x
+    / as division, x=5,y=5, x/y5=1. x/0 should throw error or undefined
+    % as remainder, x=5, y=5, x%y = 0
+    ^ as power, x=2,y=2, x^y = 2
+    = as assignemnt, for example assign x=5
+    == to check equality, x=5,y=5, x==y is true
+    <, <=, >, >= serve their normal math function of less than, less than equal to, greate than, greater than or equal to respectivley
+    -- "Comment(s)" -- as comments
+
+Standard Functions:
+
+    floor(x), rounds x to nearest non decimal number value below it. floor(5.5)=5, floor(-1.2) = -2
+    ceil(x), rounds x to nearest non decimal number value above it. floor(5.5)=6, floor(-1.2) = -1
+    round(x), round the number the nearest whole number. round(5.5) = 6
+    frac(x), get fractional part of decimal. frac(5.5) = 0.5
+    round(x, decimalPlaces), round x to the specified deciaml place. round(5.56, 1) = 5.6
+    log(x), treat as ln(x)
+    log(x, base), treat as log_base(x). log(9, 3) = log_3(9) = 2
+    sin(x), sin of x
+    cos(x), cos of x
+    tan(x), tan of x
+
+Constants:
+
+    e, Eulers constant. e = 2.718...
+    pi, pi = 3.1415
+
+--Functions for the language, Must import these--
+
+Standard Operations: --Import as StandardOperations()--
+
+    eval(String func, val x). Evaluate the function at a point x
+    evalSum(String func1, String func2, val x). Evaluate the sum of the functions at x
+    evalSub(String func1, String func2, val x). Evaluate the subtraction of the functions at x
+    evalMult(String func1, String func2, val x). Evaluate the multiplication of the functions at x
+    evalDiv(String func1, String func2, val x). Evaluate the divison of the functions at x
+
+Graph Operations: --Import as GraphOperations()--
+
+    graph(String func, SDL pane). Graph the function on a default square of dimension 5 x 5 graph on the passed pane
+    graph(String func, SDL pane, size). Graph the function on a square of dimension size x size graph
+
+CalculusOperations: --Import as CalculusOperations(), TODO--
+
+MatrixOperations: --Import as MatrixOperations(), TODO--
+
+
+
+
+
+
