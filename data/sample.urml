@@ -1,0 +1,46 @@
+import operators from std.operators; -- import operators for operator overloading
+import graph from std.graph;
+
+-- module definition
+module std
+    module operators
+        module add
+            types = [(type, sub)];
+
+            sub call(p1, p2)
+            end
+            sub clear()
+            end
+            sub set()
+            end
+        end
+    end
+end
+
+let t = [[1, 2, 3, 4],
+        [1, 2, 3, 4]
+        [1, 2, 3, 4],
+        [1, 2, 3, 4]]m;
+
+-- clear default operator behaviors
+operators.add.clear();
+operators.add.set(type, asub() end);
+
+-- standard functions (sf)
+t = sf.transpose(t);
+
+-- standard constants (sc)
+esum5 = sc.e + 5;
+
+-- graph functions
+graph();
+
+-- for loop
+for i = (start, end)
+end
+
+-- while loop
+
+while (condition)
+end
+

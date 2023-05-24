@@ -2,12 +2,12 @@ Operations:
 
     -x as x, x=5 => -x = -5
     + as addition, x=5, y=5, x+y=10
-    - as subration, x=5, y=5, x-y=0
+    - as subtraction, x=5, y=5, x-y=0
     * as multiplication, x=5, y=5, x*y=25. x*(-1) should be same as -x
     / as division, x=5,y=5, x/y5=1. x/0 should throw error or undefined
     % as remainder, x=5, y=5, x%y = 0
     ^ as power, x=2,y=2, x^y = 2
-    = as assignemnt, for example assign x=5
+    = as assignment, for example assign x=5
     == to check equality, x=5,y=5, x==y is true
     <, <=, >, >= serve their normal math function of less than, less than equal to, greate than, greater than or equal to respectivley
     -- "Comment(s)" -- as comments
